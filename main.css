@@ -1,0 +1,71 @@
+body {
+/*	background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(150,150,150,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(150,150,150,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(150,150,150,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(150,150,150,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(150,150,150,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(150,150,150,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#969696', GradientType=0 );*/
+/*background: rgba(21,26,16,1);
+background: -moz-linear-gradient(left, rgba(21,26,16,1) 0%, rgba(71,77,66,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(21,26,16,1)), color-stop(100%, rgba(71,77,66,1)));
+background: -webkit-linear-gradient(left, rgba(21,26,16,1) 0%, rgba(71,77,66,1) 100%);
+background: -o-linear-gradient(left, rgba(21,26,16,1) 0%, rgba(71,77,66,1) 100%);
+background: -ms-linear-gradient(left, rgba(21,26,16,1) 0%, rgba(71,77,66,1) 100%);
+background: linear-gradient(to right, rgba(21,26,16,1) 0%, rgba(71,77,66,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#151a10', endColorstr='#474d42', GradientType=1 );tr='#1a2610', endColorstr='#474d42', GradientType=1 );*/
+
+background: #c8d7dc;
+background: -moz-linear-gradient(left, #c8d7dc 0%, #e3eaed 63%, #f2f5f6 100%);
+background: -webkit-linear-gradient(left, #c8d7dc 0%,#e3eaed 63%,#f2f5f6 100%);
+background: linear-gradient(to right, #c8d7dc 0%,#e3eaed 63%,#f2f5f6 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8d7dc', endColorstr='#f2f5f6',GradientType=1 );
+  
+}
+
+a {
+	font-family: 'Roboto Mono';
+  font-size: 1.4rem;
+	color:rgb(25, 25, 25);
+	text-decoration: none;	
+}
+/*a:active  {
+	font-family: 'Roboto Mono';
+	font-color:grey;
+	text-decoration: none;	
+}
+a:hover {
+	font-family: 'Roboto Mono';
+	font-color: rgb(196, 196, 196);
+	text-decoration: none;
+}
+a:visited {
+	font-family: 'Roboto Mono';
+	font-color:white;
+	text-decoration: none;
+}*/
+
+@media screen and (min-width: 500px) {
+    body {
+        padding:60px
+    }
+}
+
+ul {
+	margin-top: 50px;
+}
+
+li {
+	display: block;
+	margin: 20px;
+	padding-bottom: .5rem;
+	padding-left: .1rem;
+	padding-right: 5rem;
+
+	position: center;
+	font-color: black;
+	padding: 30px;
+
+
+}
